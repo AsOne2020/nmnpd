@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "nmnpd",
+  "version": "${version}",
+  "name": "No more network portal disconnect",
+  "description": "No more network portal disconnect",
+  "authors": ["As_One"],
+  "license": "MIT",
+  "icon": "assets/nmnpd/icon.png",
+  "environment": "client",
+  "mixins": [
+    "nmnpd.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.21"
+  }
+}
